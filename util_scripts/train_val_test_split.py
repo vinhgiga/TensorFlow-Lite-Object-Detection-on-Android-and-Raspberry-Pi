@@ -12,10 +12,10 @@ import random
 import os
 
 # Define paths to image folders
-image_path = '/content/images/all'
-train_path = '/content/images/train'
-val_path = '/content/images/validation'
-test_path = '/content/images/test'
+image_path = '/mydrive/images/all'
+train_path = '/mydrive/images/train'
+val_path = '/mydrive/images/validation'
+test_path = '/mydrive/images/test'
 
 # Get list of all images
 jpg_file_list = [path for path in Path(image_path).rglob('*.jpg')]
